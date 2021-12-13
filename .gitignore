@@ -3,3 +3,4 @@ dist
 build
 venv
 Facial_Expression_Detection.egg-info
+models/classification/weights/*
