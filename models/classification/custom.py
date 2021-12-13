@@ -18,7 +18,7 @@ class VGG16FER(MiniXceptionFER):
 
 
 def VGG16(input_shape, num_classes, weights=None):
-    filename = os.path.dirname(__file__) + '/vgg16_0_5887.h5'
+    filename = os.path.dirname(__file__) + '/weights/vgg16_0_5887.h5'
     # path = get_file(filename, filename, cache_subdir='paz/models')
     model = load_model(filename)
     model._name = 'MINI-XCEPTION'
