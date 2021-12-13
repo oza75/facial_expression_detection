@@ -1,0 +1,5 @@
+.idea
+dist
+build
+venv
+Facial_Expression_Detection.egg-info
