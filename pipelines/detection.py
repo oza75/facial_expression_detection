@@ -375,6 +375,7 @@ class DetectMiniXceptionFER(Processor):
 
         # drawing and wrapping
         self.class_names = self.classify.class_names
+        print(self.class_names)
         self.draw = pr.DrawBoxes2D(self.class_names, self.colors, True)
         self.wrap = pr.WrapOutput(['image', 'boxes2D'])
 
