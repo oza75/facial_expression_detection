@@ -93,21 +93,21 @@ from .standard import Stochastic
 from .pose import SolvePNP
 
 
-from ..backend.image.opencv_image import RGB2BGR
-from ..backend.image.opencv_image import BGR2RGB
-from ..backend.image.opencv_image import RGB2GRAY
-from ..backend.image.opencv_image import RGB2HSV
-from ..backend.image.opencv_image import HSV2RGB
+from backend.image.opencv_image import RGB2BGR
+from backend.image.opencv_image import BGR2RGB
+from backend.image.opencv_image import RGB2GRAY
+from backend.image.opencv_image import RGB2HSV
+from backend.image.opencv_image import HSV2RGB
 
-from ..backend.keypoints import UPNP
-from ..backend.keypoints import LEVENBERG_MARQUARDT
+from backend.keypoints import UPNP
+from backend.keypoints import LEVENBERG_MARQUARDT
 
-from ..backend.image.draw import GREEN
-from ..backend.image.draw import FONT
-from ..backend.image.draw import LINE
+from backend.image.draw import GREEN
+from backend.image.draw import FONT
+from backend.image.draw import LINE
 
-from ..abstract import Processor
-from ..abstract import SequentialProcessor
+from abstract import Processor
+from abstract import SequentialProcessor
 
 TRAIN = 0
 VAL = 1

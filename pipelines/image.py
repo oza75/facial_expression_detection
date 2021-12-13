@@ -1,5 +1,5 @@
-from ..abstract import SequentialProcessor
-from .. import processors as pr
+from abstract import SequentialProcessor
+import processors as pr
 
 
 class AugmentImage(SequentialProcessor):

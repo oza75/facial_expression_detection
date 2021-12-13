@@ -3,7 +3,7 @@ from xml.etree import ElementTree
 from .utils import get_class_names
 
 import numpy as np
-from ..abstract import Loader
+from abstract import Loader
 
 
 class VOC(Loader):

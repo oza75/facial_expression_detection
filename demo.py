@@ -1,7 +1,6 @@
 import argparse
-from .backend.camera import VideoPlayer
-from .backend.camera import Camera
-from .pipelines import DetectMiniXceptionFER
+from backend.camera import Camera, VideoPlayer
+from pipelines import DetectMiniXceptionFER
 
 
 if __name__ == "__main__":

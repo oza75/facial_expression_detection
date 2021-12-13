@@ -1,4 +1,4 @@
-from ..abstract import Processor
+from abstract import Processor
 
 
 class Render(Processor):

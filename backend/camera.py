@@ -1,7 +1,7 @@
 import cv2
 
-from ..backend.image import resize_image, convert_color_space, show_image
-from ..backend.image import BGR2RGB
+from .image import resize_image, convert_color_space, show_image
+from .image import BGR2RGB
 
 
 class Camera(object):

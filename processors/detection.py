@@ -2,15 +2,15 @@ from __future__ import division
 
 import numpy as np
 
-from ..abstract import Processor, Box2D
-from ..backend.boxes import match
-from ..backend.boxes import encode
-from ..backend.boxes import decode
-from ..backend.boxes import offset
-from ..backend.boxes import clip
-from ..backend.boxes import nms_per_class
-from ..backend.boxes import denormalize_box
-from ..backend.boxes import make_box_square
+from abstract import Processor, Box2D
+from backend.boxes import match
+from backend.boxes import encode
+from backend.boxes import decode
+from backend.boxes import offset
+from backend.boxes import clip
+from backend.boxes import nms_per_class
+from backend.boxes import denormalize_box
+from backend.boxes import make_box_square
 
 
 class SquareBoxes2D(Processor):

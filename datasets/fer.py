@@ -3,8 +3,8 @@ from tensorflow.keras.utils import to_categorical
 import numpy as np
 
 from .utils import get_class_names
-from ..abstract import Loader
-from ..backend.image import resize_image
+from abstract import Loader
+from backend.image import resize_image
 
 
 class FER(Loader):

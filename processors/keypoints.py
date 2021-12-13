@@ -1,9 +1,9 @@
 import numpy as np
 
-from ..abstract import Processor
-from ..backend.keypoints import normalize_keypoints
-from ..backend.keypoints import denormalize_keypoints
-from ..backend.keypoints import translate_keypoints
+from abstract import Processor
+from backend.keypoints import normalize_keypoints
+from backend.keypoints import denormalize_keypoints
+from backend.keypoints import translate_keypoints
 
 
 class ProjectKeypoints(Processor):

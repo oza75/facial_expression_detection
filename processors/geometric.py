@@ -1,16 +1,16 @@
 import numpy as np
 
-from ..abstract import Processor
+from abstract import Processor
 
-from ..backend.boxes import flip_left_right
-from ..backend.boxes import to_image_coordinates
-from ..backend.boxes import to_normalized_coordinates
-from ..backend.boxes import compute_iou
-from ..backend.image import warp_affine
-from ..backend.image import translate_image
-from ..backend.image import sample_scaled_translation
-from ..backend.image import get_rotation_matrix
-from ..backend.keypoints import translate_keypoints
+from backend.boxes import flip_left_right
+from backend.boxes import to_image_coordinates
+from backend.boxes import to_normalized_coordinates
+from backend.boxes import compute_iou
+from backend.image import warp_affine
+from backend.image import translate_image
+from backend.image import sample_scaled_translation
+from backend.image import get_rotation_matrix
+from backend.keypoints import translate_keypoints
 
 
 class RandomFlipBoxesLeftRight(Processor):

@@ -1,9 +1,9 @@
 import numpy as np
 
-from .. import processors as pr
-from ..abstract import SequentialProcessor, Processor
-from ..models import SSD512, SSD300, HaarCascadeDetector
-from ..datasets import get_class_names
+import processors as pr
+from abstract import SequentialProcessor, Processor
+from models import SSD512, SSD300, HaarCascadeDetector
+from datasets import get_class_names
 
 from .image import AugmentImage, PreprocessImage
 from .classification import MiniXceptionFER

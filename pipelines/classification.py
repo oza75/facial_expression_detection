@@ -1,8 +1,8 @@
-from ..abstract import SequentialProcessor
-from .. import processors as pr
+from abstract import SequentialProcessor
+import processors as pr
 from . import PreprocessImage
-from ..models.classification import MiniXception
-from ..datasets import get_class_names
+from models.classification import MiniXception
+from datasets import get_class_names
 
 
 # neutral, happiness, surprise, sadness, anger, disgust, fear, contempt

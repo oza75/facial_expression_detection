@@ -2,8 +2,8 @@ import os
 import numpy as np
 
 from .utils import get_class_names
-from ..abstract import Loader
-from ..backend.image import resize_image
+from abstract import Loader
+from backend.image import resize_image
 
 # IMAGES_PATH = '../datasets/fer2013/fer2013.csv'
 # LABELS_PATH = '../datasets/fer2013/fer2013new.csv'

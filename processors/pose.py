@@ -1,8 +1,8 @@
 import numpy as np
 
-from ..abstract import Processor, Pose6D
-from ..backend.keypoints import solve_PNP
-from ..backend.keypoints import LEVENBERG_MARQUARDT
+from abstract import Processor, Pose6D
+from backend.keypoints import solve_PNP
+from backend.keypoints import LEVENBERG_MARQUARDT
 
 
 class SolvePNP(Processor):

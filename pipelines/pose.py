@@ -1,5 +1,5 @@
-from ..abstract import Processor, SequentialProcessor
-from .. import processors as pr
+from abstract import Processor, SequentialProcessor
+import processors as pr
 
 from .detection import HaarCascadeFrontalFace
 from .keypoints import FaceKeypointNet2D32

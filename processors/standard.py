@@ -1,7 +1,7 @@
 import numpy as np
 
-from ..abstract import Processor
-from ..backend.boxes import to_one_hot
+from abstract import Processor
+from backend.boxes import to_one_hot
 
 
 class ControlMap(Processor):

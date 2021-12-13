@@ -1,7 +1,7 @@
 import os
 import glob
 
-from paz.abstract import Loader
+from abstract import Loader
 
 from .utils import get_class_names
 

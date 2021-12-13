@@ -1,13 +1,13 @@
 import numpy as np
 
-from ..abstract import Processor
-from ..backend.image import lincolor
-from ..backend.image import draw_rectangle
-from ..backend.image import put_text
-from ..backend.image import draw_circle
-from ..backend.image import draw_cube
-from ..backend.image import draw_random_polygon
-from ..backend.keypoints import project_points3D
+from abstract import Processor
+from backend.image import lincolor
+from backend.image import draw_rectangle
+from backend.image import put_text
+from backend.image import draw_circle
+from backend.image import draw_cube
+from backend.image import draw_random_polygon
+from backend.keypoints import project_points3D
 
 
 class DrawBoxes2D(Processor):

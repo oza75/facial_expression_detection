@@ -1,8 +1,8 @@
-from ..abstract import SequentialProcessor, Processor
-from .. import processors as pr
+from abstract import SequentialProcessor, Processor
+import processors as pr
 
 from .renderer import RenderTwoViews
-from ..models import KeypointNet2D
+# from models import KeypointNet2D
 from tensorflow.keras.utils import get_file
 
 
@@ -118,7 +118,8 @@ class FaceKeypointNet2D32(EstimateKeypoints2D):
         inferences and a numpy array representing the keypoints.
     """
     def __init__(self, draw=True, radius=3):
-        model = KeypointNet2D((96, 96, 1), 15, 32, 0.1)
+        # model = KeypointNet2D((96, 96, 1), 15, 32, 0.1)
+        model = None
         self.weights_URL = ('https://github.com/oarriaga/altamira-data/'
                             'releases/download/v0.7/')
         weights_path = self.get_weights_path(model)

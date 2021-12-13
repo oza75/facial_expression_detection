@@ -1,24 +1,24 @@
 import numpy as np
 
-from ..abstract import Processor
+from abstract import Processor
 
-from ..backend.image import cast_image
-from ..backend.image import load_image
-from ..backend.image import random_saturation
-from ..backend.image import random_brightness
-from ..backend.image import random_contrast
-from ..backend.image import random_hue
-from ..backend.image import resize_image
-from ..backend.image import random_image_blur
-from ..backend.image import random_flip_left_right
-from ..backend.image import convert_color_space
-from ..backend.image import show_image
-from ..backend.image import blend_alpha_channel
-from ..backend.image import random_shape_crop
-from ..backend.image import make_random_plain_image
-from ..backend.image import concatenate_alpha_mask
-from ..backend.image import draw_filled_polygon
-from ..backend.image import gaussian_image_blur
+from backend.image import cast_image
+from backend.image import load_image
+from backend.image import random_saturation
+from backend.image import random_brightness
+from backend.image import random_contrast
+from backend.image import random_hue
+from backend.image import resize_image
+from backend.image import random_image_blur
+from backend.image import random_flip_left_right
+from backend.image import convert_color_space
+from backend.image import show_image
+from backend.image import blend_alpha_channel
+from backend.image import random_shape_crop
+from backend.image import make_random_plain_image
+from backend.image import concatenate_alpha_mask
+from backend.image import draw_filled_polygon
+from backend.image import gaussian_image_blur
 
 
 B_IMAGENET_MEAN, G_IMAGENET_MEAN, R_IMAGENET_MEAN = 104, 117, 123
